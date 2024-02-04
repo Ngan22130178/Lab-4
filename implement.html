@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implement</title>
+    <link rel="stylesheet" href="styleIm.css"> <!-- Liên kết đến file CSS -->
+</head>
+<body>
+    <header>
+        <h1>Quản lý Món Ăn</h1>
+        <!-- Menu Tabs -->
+        <nav>
+            <a href="requirement.html">Requirement</a>
+            <a href="design.html">Design</a>
+            <a href="implement.html">Implement</a>
+        </nav>
+    </header>
+
+    <section id="actions">
+        <button onclick="openForm('addForm')">Thêm</button>
+    </section>
+
+    <main id="objectsList">
+        <div><img src="images/bun_suong.jpg" alt=""> 
+            <h4>Bún suông</h4>
+            
+        </div>
+        <div> <img src="images/chao_ech.jpg" alt="">
+            <h4>Cháo ếch</h4>
+           
+        </div>
+    </main>
+
+    <div id="addForm" class="form">
+        <form onsubmit="addObject(event)">
+            <h2>Thêm Đối tượng</h2>
+            <label for="name">Tên:</label>
+            <input type="text" id="name" required>
+            <label for="image">Hình ảnh:</label>
+            <input type="file" id="image" accept="image/*" required>
+            <button type="submit">Thêm</button>
+            <button type="button" onclick="closeForm('addForm')">Đóng</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+    
+</body>
+</html>

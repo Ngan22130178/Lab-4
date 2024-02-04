@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #777;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #actions {
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    padding: 5px;
+  }
+  
+  #studentList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+ 
+
+  #actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"] {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #c9302c;
+}
+#objectsList{
+
+position: absolute;
+width: 1856px;
+height: 1088px;
+
+background: #FFFFFF;
+
+
+}
+#objectsList div{
+
+object-position: center;
+position: absolute;
+width: 325px;
+height: 220px;
+margin: 10px;
+background: #FFFFFF;
+border: 1px solid #000000;
+padding-top: 10px;
+padding-left: 12px;
+padding-right: 12px;
+text-align: center;
+}
+
+#objectsList img{
+/*list*/
+max-width: 100%;
+object-position: center;
+width: 258px;
+height: 155px;
+border: 1px solid #000000;
+
+    
+
+}
